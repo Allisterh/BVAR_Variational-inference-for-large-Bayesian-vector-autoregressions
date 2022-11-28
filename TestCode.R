@@ -16,7 +16,8 @@ list_of_packages = c("Rcpp", "RcppArmadillo", "RcppEigen", "RcppNumerical", "BH"
 new_packages = list_of_packages[!(list_of_packages %in% installed.packages()[,"Package"])]
 if (length(new_packages)>0) install.packages(new_packages)
 
-#: Load package
+#: Install and load package
+install.packages("VBmlr_1.0.tar.gz",repos=NULL,source=TRUE)
 library(VBmlr)
 
 #: Get example quantities and
