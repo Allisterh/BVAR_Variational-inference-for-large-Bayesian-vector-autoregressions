@@ -1,4 +1,4 @@
-# Variational-Bayes-for-multivariate-predictive-regressions
+# Variational Bayes for multivariate predictive regressions
 
 This folder contains the main paper [Bernardi, Bianchi, and Bianco (2022)] and the code to perform variational Bayes inference for multivariate predictive regressions with continuous shrinkage priors. 
 
